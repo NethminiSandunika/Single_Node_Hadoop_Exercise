@@ -1,0 +1,9 @@
+<configuration>
+    <!-- Define a property in the Hadoop configuration -->
+    <property>
+        <!-- Specify the default filesystem (fs.defaultFS) used by Hadoop -->
+        <name>fs.defaultFS</name>
+        <!-- Set the default filesystem to HDFS and specify the NameNode address -->
+        <value>hdfs://localhost:9000</value>
+    </property>
+</configuration>

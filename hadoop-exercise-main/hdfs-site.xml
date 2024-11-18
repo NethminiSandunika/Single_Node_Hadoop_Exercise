@@ -1,0 +1,9 @@
+<configuration>
+    <!-- Define a property in the Hadoop configuration -->
+    <property>
+        <!-- Specify the replication factor for HDFS -->
+        <name>dfs.replication</name>
+        <!-- Set the number of replicas for each block to 1 -->
+        <value>1</value>
+    </property>
+</configuration>
